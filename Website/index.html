@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header with improved navigation -->
+      <header class="header">
+        <nav class="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#menus">Menus</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Hero section with main heading -->
+      <section class="hero">
+        <h1>It's that simple.</h1>
+      </section>
+
+      <!-- Food items displayed in cards -->
+      <section class="items-container">
+        <!-- Roasted Chicken Card -->
+        <div class="item-card">
+          <div class="discount-badge">30%</div>
+          <img src="./images/Roasted Chicken.png" alt="Roasted Chicken" />
+          <h2>Roasted Chicken</h2>
+          <p>
+            A golden brown roasted chicken, seasoned and cooked to perfection,
+            sits on a plate garnished with fresh herbs.
+          </p>
+          <div class="item-card-actions">
+            <button class="btn btn-primary">Order now</button>
+          </div>
+        </div>
+
+        <!-- Steak and Salad Card -->
+        <div class="item-card">
+          <div class="discount-badge">22%</div>
+          <img src="./images/Steak.png" alt="Steak and Salad" />
+          <h2>Steak and Salad</h2>
+          <p>
+            A succulent steak, grilled and sliced, is accompanied by a vibrant
+            salad featuring mixed greens, cherry tomatoes, and a light dressing.
+          </p>
+          <div class="item-card-actions">
+            <button class="btn btn-primary">Order now</button>
+          </div>
+        </div>
+
+        <!-- Hamburger Card -->
+        <div class="item-card">
+          <div class="discount-badge">25%</div>
+          <img src="./images/Hamburger.png" alt="Hamburger" />
+          <h2>Hamburger</h2>
+          <p>
+            A classic hamburger with a juicy beef patty, melted cheese, crisp
+            lettuce, and fresh tomatoes, all nestled between a soft bun.
+          </p>
+          <div class="item-card-actions">
+            <button class="btn btn-primary">Order now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2025 Restaurant Food. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
